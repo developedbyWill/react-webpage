@@ -1,0 +1,156 @@
+/* Navbar */
+.navbar {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar-brand {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #333;
+  margin: 0 240px;
+}
+
+/* Carousel Styles */
+.carousel {
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 98%;
+  margin: 25px auto 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+  border-radius: 10px;
+  object-fit: cover;
+  height: 700px;
+  width: 100%;
+}
+
+/* Item Styles */
+.item-types {
+  text-align: center;
+  padding: 30px 0;
+}
+
+.item-types h1 {
+  margin: 0 0 30px;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+
+.col-md-3 {
+  flex-basis: calc(25% - 30px);
+  margin: 0 15px;
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #333;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Counter Container */
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.buttons-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-space {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  width: 780px;
+  height: 13vh;
+}
+
+.number-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 780px;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #f8f8f8a1;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.container p {
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Horizontal Line Styles */
+hr {
+  border: 0;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/* Copyright Text Styles */
+.copyright {
+  color: #777;
+  font-size: 14px;
+  margin-top: 20px;
+}
